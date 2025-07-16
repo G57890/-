@@ -1,0 +1,249 @@
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    background-color: #75818f;
+    direction: rtl;
+    margin-top: 125px;
+}
+
+/* ------- nav ------- */
+
+nav {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    background-color: #f7c873;
+    padding: 4px 0;
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    box-shadow: 0 2px 5px rgb(194, 160, 73);
+    z-index: 1000;
+    flex-direction: row;
+    background-color: #75818f;
+    gap: 18px;
+    margin: auto;
+}
+
+.a-nav {
+    color: rgb(202, 172, 94);
+    text-decoration-line: none;
+}
+
+h2 {
+    font-size: 22px;
+    -webkit-text-stroke: 0.15px rgb(202, 172, 94);
+}
+
+.img-nav {
+    width: 60px;
+    border: none
+}
+
+.img--nav {
+    width: 56px;
+    border: none
+}
+
+.img---nav {
+    width: 57px;
+    border: none
+}
+
+.img----nav {
+    width: 57px;
+    border: none
+}
+
+/* ------- nav ------- */
+
+.logo {
+    margin: auto;
+}
+
+.img-logo{
+    width: 200px;
+    border: none;
+}
+
+h1 {
+    font-size: 38px;
+    text-align: center;
+    color: white;
+}
+
+.main {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    width: 100px;
+    margin: auto;
+    gap: 10px;
+}
+
+.A {
+    width: fit-content;
+    display: flex;
+    flex-direction: column;
+}
+
+p {
+    text-align: center;
+    font-size: 26px;
+    color: rgb(255, 255, 255);
+    -webkit-text-stroke: white 0.1px;
+}
+
+datalist {
+    transition: ease-in-out 0.3s;
+    text-align: center;
+    font-size: 26px;
+    color: rgb(255, 255, 255);
+}
+
+summary {
+    transition: ease-in-out 0.3s;
+    direction: ltr;
+    text-align: center;
+    font-size: 26px;
+    color: rgb(255, 255, 255);
+}
+
+hr {
+    width: 100%;
+    height: 13px;
+    color: transparent;
+    border: 0px transparent;
+}
+
+img {
+    border: rgb(194, 160, 73) 3px solid;
+    border-radius: 20px;
+    width: 150px;
+}
+
+.priceNum {
+    font-size: 26px;
+}
+
+h4 {
+    font-size: 18px;
+    text-align: center;
+    color: rgb(221, 221, 221);
+}
+
+button {
+    padding: 6px;
+    font-size: 23px;
+    margin: auto;
+    width: 130px;
+    height: 43px;
+    background-color: rgb(247, 245, 245);
+    border-top: solid 3px white;
+    border-left: solid 3px white;
+    border-right: solid 5px black;
+    border-bottom: solid 5px black;
+    transition: 0.2s ease-in-out;
+    animation-delay: 0.3s;
+}
+
+button:active {
+    border-right: solid 3px white;
+    border-bottom: solid 3px white;
+    border-top: solid 3px black;
+    border-left: solid 3px black;
+}
+
+.h1-hover:hover {
+    color: #FAEBCD;
+    transition: ease-in-out 0.5s;
+}
+
+.h1-hover {
+    transition: ease-in-out 0.5s;
+}
+
+#وجبةالسرية,
+#وجبةتشيكن,
+#الجيتميل,
+#وجبةحريقه,
+#وجبةبرجر,
+#وجبةفاهيتا,
+#وجبةمو {
+    display: none;
+}
+
+#theMeal {
+    margin: auto;
+    width: 160px;
+}
+
+@media (min-width: 570px) {
+    img {
+        width: 230px;
+    }
+
+    p {
+        font-size: 35px;
+    }
+
+    h1 {
+        font-size: 48px;
+    }
+
+    .img-logo {
+        width: 250px;
+    }
+
+
+
+        h2 {
+            font-size: 33px;
+        }
+    
+        .img-nav {
+            width: 75px;
+        }
+    
+        .img--nav {
+            width: 70px;
+        }
+    
+        .img---nav {
+            width: 78.25px;
+        }
+    
+        .img----nav {
+            width: 71.25px;
+        }
+
+        body {
+            margin-top: 170px;
+        }
+
+        summary {
+            font-size: 33px;
+        }
+
+        hr {
+            height: 23px;
+        }
+
+        .priceNum {
+            font-size: 34px;
+        }
+
+        h4 {
+            font-size: 20px;
+        }
+
+        #theMeal {
+             margin: auto;
+             width: 240px;
+        }
+}
