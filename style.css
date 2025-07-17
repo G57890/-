@@ -36,6 +36,9 @@ nav {
 }
 
 h2 {
+    margin: auto;
+    text-align: center;
+    justify-content: center;
     font-size: 22px;
     -webkit-text-stroke: 0.15px rgb(202, 172, 94);
 }
