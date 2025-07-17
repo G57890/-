@@ -119,7 +119,7 @@ summary {
 
 hr {
     width: 100%;
-    height: 13px;
+    height: 14px;
     color: transparent;
     border: 0px transparent;
 }
@@ -233,7 +233,7 @@ button:active {
         }
 
         hr {
-            height: 23px;
+            height: 25px;
         }
 
         .priceNum {
