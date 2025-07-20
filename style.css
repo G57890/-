@@ -318,3 +318,9 @@ button:active {
              width: 240px;
         }
 }
+
+@media (min-width: 404px) {
+    nav {
+        justify-content: center;
+    }
+}
