@@ -322,4 +322,9 @@ button:active {
     nav {
         justify-content: center;
     }
+
+    .nav-wrapper::before,
+    .nav-wrapper::after {
+        opacity: 0;
+    }
 }
