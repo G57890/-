@@ -8,6 +8,7 @@ window.onload = function () {
     document.getElementById("وجبةبرجر"),
     document.getElementById("وجبةفاهيتا"),
     document.getElementById("وجبةمو"),
+    document.getElementById("وجبةترفل"),
   ];
 
   const bt = document.getElementById("bt");
@@ -118,3 +119,4 @@ window.onload = function () {
   nav.addEventListener("scroll", toggleNavShadow);
   toggleNavShadow(); // استدعاء أولي
 };
+
